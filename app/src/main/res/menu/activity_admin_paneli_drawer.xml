@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/panel"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Panel" />
+        <item
+            android:id="@+id/uyeler"
+            android:icon="@drawable/ic_people"
+            android:title="Üyeler" />
+        <item
+            android:id="@+id/uyeekle"
+            android:icon="@drawable/ic_person_add"
+            android:title="Üye Ekle" />
+        <item
+            android:id="@+id/sifredegis"
+            android:icon="@drawable/ic_setting"
+            android:title="Şifre Değiş" />
+        <item
+            android:id="@+id/cikisyap"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="Çıkış Yap" />
+
+    </group>
+
+</menu>
